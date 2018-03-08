@@ -16,11 +16,11 @@ public class Book {
     public static final class BookBuilder {
     }
 
-    private String isbn;
+    private final String isbn;
 
-    private String title;
+    private final String title;
 
-    private String author;
+    private final String author;
 
-    private int page;
+    private final int page;
 }
